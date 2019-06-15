@@ -1,12 +1,10 @@
 import React from 'react';
-import './App.css';
-import Products from './components/Products'
+import '../App.css';
 
 function App() {
   return (
     <React.Fragment>
-      <h2>Hello from App Component</h2>
-      <Products />
+      <h2>Heelo from 404 Component</h2>
     </React.Fragment>
   );
 }
