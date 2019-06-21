@@ -1,18 +1,16 @@
-import React from 'react'
-const directoryTree = require('directory-tree');
-const tree = directoryTree('/home/sbuda32/e-commerce/public/Images/Images/product_images/T-shirt-thumbnails');
+import React from 'react';
+import '../App.css';
+import Product from './Product';
 
 function ProductList() {
-    
-    
-   console.log(tree);
-
-    return (
-        <div>
-            <h1>List of Products</h1>            
-        </div>
-    )
+  return (
+    <React.Fragment>
+      <h2>Hello from Products Component</h2>
+      <div className="row">
+        <Product />
+      </div>
+    </React.Fragment>
+  );
 }
-
 
 export default ProductList;
