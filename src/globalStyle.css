@@ -1,0 +1,101 @@
+@font-face {
+    src: url('./fonts/ChakraPetch-Bold.ttf');
+    font-family: Chakra;
+}
+
+@font-face {
+    src: url('./fonts/BalooBhaijaan-Regular.ttf');
+    font-family: Baloo;
+}
+
+@font-face {
+    src: url('./fonts/Gugi-Regular.ttf');
+    font-family: Gugi;
+}
+
+.navBackground {
+   
+    background-color: #9cf4a7;
+}
+
+.shopping-cart {
+   
+    position: relative;
+    width: 50px;
+    color: #9cf4a7;
+    background-color: #9cf4a7;
+    margin-top: -250px;
+    display: none;
+}
+
+.title {
+    
+    font-family: Baloo;
+    color: #9cf4a7;
+}
+
+.companyLogo {
+    
+    height: 40px;
+}
+
+.navbar-brand {
+
+    margin-left: 70px;
+}
+
+.cardContainer .col-lg-3 {
+    
+    width: 200px;
+    height: 400px;
+}
+
+.cardContainer:hover {
+    
+    border: 0.05rem solid #9cf4a7;
+    box-shadow: 5px 5px 5px #9cf4a7;
+}
+
+.cardContainer:hover .image {
+    
+    transform: scale(1.1);
+}
+
+.cardContainer:hover .shopping-cart {
+   
+    position: relative;
+    width: 50px;
+    color: #9cf4a7;
+    background-color: #9cf4a7;
+    margin-top: -250px;
+}
+
+.cart-button {
+    
+    transition: all 1s linear;
+}
+
+.cart-button.inCartLabel {
+
+    margin-top: -125px;
+    position: absolute;
+}
+
+.card-footer {
+
+    margin-bottom: -50px;
+}
+
+@media (min-width: 992px) {
+
+    .col-lg-3 {
+        
+        flex: 0 0 18rem;
+        max-width: 35%;
+    }
+    
+    .priceLabel {
+
+        margin-top: 30px;
+    }
+}

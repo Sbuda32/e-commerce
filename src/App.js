@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import  "./globalStyle.css";
+import './fontawesome-free-5.9.0-web/css/all.css';
 import { Switch, Route } from 'react-router-dom'
 import Product from './components/Product'
 import NavBar from './components/NavBar';

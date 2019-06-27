@@ -10,7 +10,8 @@ const tshirtObject =
       name: 'a-partridge-in-a-pear-tree.gif',
       title: 'Partridge in a Pear Tree',
       size: 7316,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -20,7 +21,8 @@ const tshirtObject =
       name: 'adoration-of-the-kings.gif',
       title: 'Adoration of the Kings',
       size: 6559,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -30,7 +32,8 @@ const tshirtObject =
       name: 'afghan-flower.gif',
       title: 'Afghan Flower',
       size: 7827,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -40,7 +43,8 @@ const tshirtObject =
       name: 'albania-flower.gif',
       title: 'Albania Flower',
       size: 7744,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -50,7 +54,8 @@ const tshirtObject =
       name: 'alsace.gif',
       title: 'Alsace',
       size: 7066,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -60,7 +65,8 @@ const tshirtObject =
       name: 'altar-piece.gif',
       title: 'Altar Piece',
       size: 5994,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -70,7 +76,8 @@ const tshirtObject =
       name: 'apocalypse-tapestry.gif',
       title: 'Apocalypse Tapestry',
       size: 7463,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -80,7 +87,8 @@ const tshirtObject =
       name: 'arc-d-triomphe.gif',
       title: 'Arc-D Triomphe',
       size: 7176,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -90,7 +98,8 @@ const tshirtObject =
       name: 'austria-flower.gif',
       title: 'Austria Flower',
       size: 8873,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -100,7 +109,8 @@ const tshirtObject =
       name: 'baby-seal.gif',
       title: 'Baby Seal',
       size: 9051,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -110,7 +120,8 @@ const tshirtObject =
       name: 'birds.gif',
       title: 'Birds',
       size: 5655,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -120,7 +131,8 @@ const tshirtObject =
       name: 'buffalo.gif',
       title: 'Buffalo',
       size: 10651,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -130,7 +142,8 @@ const tshirtObject =
       name: 'bulgarian-flower.gif',
       title: 'Bulgarian Flower',
       size: 6552,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -140,7 +153,8 @@ const tshirtObject =
       name: 'canada-goose.gif',
       title: 'Canada Goose',
       size: 8942,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -150,7 +164,8 @@ const tshirtObject =
       name: 'caribou.gif',
       title: 'Caribou',
       size: 10790,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -160,7 +175,8 @@ const tshirtObject =
       name: 'centaur.gif',
       title: 'Centaur',
       size: 10159,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -170,7 +186,8 @@ const tshirtObject =
       name: 'chartres-cathedral.gif',
       title: 'Chartres Cathedral',
       size: 7154,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -180,7 +197,8 @@ const tshirtObject =
       name: 'christmas-seal.gif',
       title: 'Christmas Seal',
       size: 8172,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -190,7 +208,8 @@ const tshirtObject =
       name: 'christmas-tree.gif',
       title: 'Christmas Tree',
       size: 9591,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -200,7 +219,8 @@ const tshirtObject =
       name: 'coat-of-arms.gif',
       title: 'Coat of Arms',
       size: 6819,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -210,7 +230,8 @@ const tshirtObject =
       name: 'colobus.gif',
       title: 'Colobus',
       size: 7912,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -220,7 +241,8 @@ const tshirtObject =
       name: 'colombia-flower.gif',
       title: 'Colombia Flower',
       size: 7449,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -230,7 +252,8 @@ const tshirtObject =
       name: 'congo-flower.gif',
       title: 'Congo Flower',
       size: 6985,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -240,7 +263,8 @@ const tshirtObject =
       name: 'congo-rhino.gif',
       title: 'Congo Rhino',
       size: 6366,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -250,7 +274,8 @@ const tshirtObject =
       name: 'corsica.gif',
       title: 'Corsica',
       size: 6521,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -260,7 +285,8 @@ const tshirtObject =
       name: 'costa-rica-flower.gif',
       title: 'Costa Rica flower',
       size: 8816,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -270,7 +296,8 @@ const tshirtObject =
       name: 'county-of-nice.gif',
       title: 'County of nice',
       size: 7206,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -280,7 +307,8 @@ const tshirtObject =
       name: 'dutch-sea-horse.gif',
       title: 'Dutch Sea Horse',
       size: 9027,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -290,7 +318,8 @@ const tshirtObject =
       name: 'dutch-swans.gif',
       title: 'Dutch Swans',
       size: 10039,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -300,7 +329,8 @@ const tshirtObject =
       name: 'easter-rebellion.gif',
       title: 'Easter Rebellion',
       size: 8478,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -310,7 +340,8 @@ const tshirtObject =
       name: 'equatorial-rhino.gif',
       title: 'Equatorial Rhino',
       size: 9338,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -320,7 +351,8 @@ const tshirtObject =
       name: 'espresso.gif',
       title: 'Espresso',
       size: 7828,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -330,7 +362,8 @@ const tshirtObject =
       name: 'ethiopian-elephant.gif',
       title: 'Ethiopian Elephant',
       size: 6727,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -340,7 +373,8 @@ const tshirtObject =
       name: 'ethiopian-rhino.gif',
       title: 'Ethiopian Rhino',
       size: 9972,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -350,7 +384,8 @@ const tshirtObject =
       name: 'gabon-flower.gif',
       title: 'Gabon Flower',
       size: 6649,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -360,7 +395,8 @@ const tshirtObject =
       name: 'galileo.gif',
       title: 'Galileo',
       size: 10994,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -370,7 +406,8 @@ const tshirtObject =
       name: 'gallic-cock.gif',
       title: 'Gallic Cock',
       size: 7400,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -380,7 +417,8 @@ const tshirtObject =
       name: 'ghana-flower.gif',
       title: 'Ghana Flower',
       size: 6369,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -390,7 +428,8 @@ const tshirtObject =
       name: 'guiness.gif',
       title: 'Guiness',
       size: 8471,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -400,7 +439,8 @@ const tshirtObject =
       name: 'haute-couture.gif',
       title: 'Haute Couture',
       size: 10764,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -410,7 +450,8 @@ const tshirtObject =
       name: 'holly-cat.gif',
       title: 'Holly Cat',
       size: 7477,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -420,7 +461,8 @@ const tshirtObject =
       name: 'hunt.gif',
       title: 'Hunt',
       size: 7165,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -430,7 +472,8 @@ const tshirtObject =
       name: 'ifni-fish.gif',
       title: 'Ifni Fish',
       size: 9880,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -440,7 +483,8 @@ const tshirtObject =
       name: 'iris.gif',
       title: 'Iris',
       size: 7686,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -450,7 +494,8 @@ const tshirtObject =
       name: 'irish-coat-of-arms.gif',
       title: 'Irish Coat of Arms',
       size: 10472,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -460,7 +505,8 @@ const tshirtObject =
       name: 'israel-flower.gif',
       title: 'Israel Flower',
       size: 5849,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -470,7 +516,8 @@ const tshirtObject =
       name: 'italia.gif',
       title: 'Italia',
       size: 7897,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -480,7 +527,8 @@ const tshirtObject =
       name: 'italian-airmail.gif',
       title: 'Italian Airmail',
       size: 7801,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -490,7 +538,8 @@ const tshirtObject =
       name: 'italy-jesus.gif',
       title: 'Italy Jesus',
       size: 8780,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -500,7 +549,8 @@ const tshirtObject =
       name: 'italy-maria.gif',
       title: 'Italy Maria',
       size: 8939,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -510,7 +560,8 @@ const tshirtObject =
       name: 'kat-over-new-moon.gif',
       title: 'Kat Over New Moon',
       size: 6128,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -520,7 +571,8 @@ const tshirtObject =
       name: 'king-salmon.gif',
       title: 'King Salmon',
       size: 6835,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -530,7 +582,8 @@ const tshirtObject =
       name: 'laos-bird.gif',
       title: 'Laos Bird',
       size: 10588,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -540,7 +593,8 @@ const tshirtObject =
       name: 'laotian-elephant.gif',
       title: 'Laotian Elephant',
       size: 10897,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -550,7 +604,8 @@ const tshirtObject =
       name: 'liberian-elephant.gif',
       title: 'Liberian Elephant',
       size: 11856,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -560,7 +615,8 @@ const tshirtObject =
       name: 'lorraine.gif',
       title: 'Lorraine',
       size: 7155,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -570,7 +626,8 @@ const tshirtObject =
       name: 'love.gif',
       title: 'Love',
       size: 8362,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -580,7 +637,8 @@ const tshirtObject =
       name: 'madonna-child.gif',
       title: 'Madonna Child',
       size: 5692,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -590,7 +648,8 @@ const tshirtObject =
       name: 'marianne.gif',
       title: 'Marianne',
       size: 12511,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -600,7 +659,8 @@ const tshirtObject =
       name: 'mazzini.gif',
       title: 'Mazzini',
       size: 8663,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -610,7 +670,8 @@ const tshirtObject =
       name: 'mercury.gif',
       title: 'Mercury',
       size: 8903,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -620,7 +681,8 @@ const tshirtObject =
       name: 'mistletoe.gif',
       title: 'Mistletoe',
       size: 5032,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -630,7 +692,8 @@ const tshirtObject =
       name: 'mozambique-lion.gif',
       title: 'Mozambique Lion',
       size: 5867,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -640,7 +703,8 @@ const tshirtObject =
       name: 'musk-ox.gif',
       title: 'Musk Ox',
       size: 10066,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -650,7 +714,8 @@ const tshirtObject =
       name: 'mustache-monkey.gif',
       title: 'Mustache Monkey',
       size: 8783,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -660,7 +725,8 @@ const tshirtObject =
       name: 'notre-dame.gif',
       title: 'Notre Dame',
       size: 10925,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -670,7 +736,8 @@ const tshirtObject =
       name: 'paris-peace-conference.gif',
       title: 'Paris Peace Conference',
       size: 8273,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -680,7 +747,8 @@ const tshirtObject =
       name: 'peru-llama.gif',
       title: 'Peru Llama',
       size: 8053,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -690,7 +758,8 @@ const tshirtObject =
       name: 'poland-flower.gif',
       title: 'Poland Flower',
       size: 8991,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -700,7 +769,8 @@ const tshirtObject =
       name: 'romania-alsatian.gif',
       title: 'Romania Alsatian',
       size: 5370,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -710,7 +780,8 @@ const tshirtObject =
       name: 'romania-flower.gif',
       title: 'Romania Flower',
       size: 6271,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -720,7 +791,8 @@ const tshirtObject =
       name: 'romulus-remus.gif',
       title: 'Romulus Remus',
       size: 8144,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -730,7 +802,8 @@ const tshirtObject =
       name: 'russia-flower.gif',
       title: 'Russia Flower',
       size: 5828,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -740,7 +813,8 @@ const tshirtObject =
       name: 'sambar.gif',
       title: 'Sambar',
       size: 7224,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -750,7 +824,8 @@ const tshirtObject =
       name: 'san-marino-flower.gif',
       title: 'San Marino Flower',
       size: 7235,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -760,7 +835,8 @@ const tshirtObject =
       name: 'sarah-bernhardt.gif',
       title: 'Sarah Bernhardt',
       size: 10677,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -770,7 +846,8 @@ const tshirtObject =
       name: 'sea-gull.gif',
       title: 'Sea Gull',
       size: 7367,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -780,7 +857,8 @@ const tshirtObject =
       name: 'snow-deer.gif',
       title: 'Snow Deer',
       size: 6296,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -790,7 +868,8 @@ const tshirtObject =
       name: 'somali-fish.gif',
       title: 'Somali Fish',
       size: 5294,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -800,7 +879,8 @@ const tshirtObject =
       name: 'somali-ostriches.gif',
       title: 'Somali Ostriches',
       size: 9045,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -810,7 +890,8 @@ const tshirtObject =
       name: 'st-francis.gif',
       title: 'st-Francis',
       size: 9254,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -820,7 +901,8 @@ const tshirtObject =
       name: 'st-lucia.gif',
       title: 'st-Lucia',
       size: 6631,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -830,7 +912,8 @@ const tshirtObject =
       name: 'st-lucy.gif',
       title: 'st-Lucy',
       size: 7566,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -840,7 +923,8 @@ const tshirtObject =
       name: 'st-patrick.gif',
       title: 'st-Patrick',
       size: 8053,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -850,7 +934,8 @@ const tshirtObject =
       name: 'st-peter.gif',
       title: 'st-Peter',
       size: 9940,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -860,7 +945,8 @@ const tshirtObject =
       name: 'suvla-bay.gif',
       title: 'Suvla Bay',
       size: 9888,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -870,7 +956,8 @@ const tshirtObject =
       name: 'swede-santa.gif',
       title: 'Swede Santa.',
       size: 6433,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -880,7 +967,8 @@ const tshirtObject =
       name: 'sword-of-light.gif',
       title: 'Sword-of Light',
       size: 10156,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -890,7 +978,8 @@ const tshirtObject =
       name: 'tankanyika-giraffe.gif',
       title: 'Tankanyika Giraffe',
       size: 9802,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -900,7 +989,8 @@ const tshirtObject =
       name: 'the-promise-of-spring.gif',
       title: 'The Promise of Spring',
       size: 7154,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -910,7 +1000,8 @@ const tshirtObject =
       name: 'the-rapture-of-psyche.gif',
       title: 'The Rapture of Psyche',
       size: 8645,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -920,7 +1011,8 @@ const tshirtObject =
       name: 'the-three-wise-men.gif',
       title: 'The Three Wise Men',
       size: 9160,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -930,7 +1022,8 @@ const tshirtObject =
       name: 'the-virgin-mary.gif',
       title: 'The Virgin Mary',
       size: 5831,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -940,7 +1033,8 @@ const tshirtObject =
       name: 'thomas-moore.gif',
       title: 'Thomas Moore',
       size: 8481,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -950,7 +1044,8 @@ const tshirtObject =
       name: 'thrilling-love.gif',
       title: 'Thrilling Love',
       size: 8453,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -960,7 +1055,8 @@ const tshirtObject =
       name: 'torch.gif',
       title: 'Torch',
       size: 8038,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -970,7 +1066,8 @@ const tshirtObject =
       name: 'trout.gif',
       title: 'Trout',
       size: 4699,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -980,7 +1077,8 @@ const tshirtObject =
       name: 'uruguay-flower.gif',
       title: 'Uruguay Flower',
       size: 7412,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -990,7 +1088,8 @@ const tshirtObject =
       name: 'visit-the-zoo.gif',
       title: 'Visit The Zoo',
       size: 7702,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -1000,7 +1099,8 @@ const tshirtObject =
       name: 'weather-vane.gif',
       title: 'Weather Vane',
       size: 6323,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     },
@@ -1010,7 +1110,8 @@ const tshirtObject =
       name: 'wreath.gif',
       title: 'Wreath',
       size: 7946,
-      price: '$ 2',
+      price: '$ 2.00',
+      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       extension: '.gif',
       type: 'file'
     }
