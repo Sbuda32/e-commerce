@@ -21,7 +21,7 @@ const Detials = (props) => {
             Detials
           </span>
           <p className="detailText" > {props.location.state.details} </p>
-          <ButtonTag> Add to Cart </ButtonTag>
+          <ButtonTag cartButton> { props.location.state.isInCart ? "In Cart" : "Add to Cart"} </ButtonTag>
           <Link to="/" >
             <ButtonTag> Back to Products </ButtonTag>
           </Link>
@@ -81,11 +81,15 @@ const ButtonTag = styled.button`
   padding: 8px 20px;
   border-radius: 100px;
   font-size: 20px;
-  background-color: #9cf4a7;
-  color: #e86830;
+  outline: none;
+  background-color: ${ props => ( props.cartButton ? "#e86830": "#9cf4a7")};
+  color: ${ props => ( props.cartButton ? "#9cf4a7": "#e86830")};
   &:hover {
+    
     background-color: transparent;
     color: #9cf4a7;
+    outline: none;
+    border: none;
   }
 `;
 
