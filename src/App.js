@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  "./globalStyle.css";
@@ -11,11 +11,20 @@ import Cart from './components/Cart';
 import Default from './components/Default';
 
 function App() {
+
+  const [searchInputValue, setSearchInputValue] = useState("");
+
+  function handleSearch ( value ) {
+    setSearchInputValue( value );
+    
+  }
+
   return (
     <React.Fragment>
-      <NavBar />
+      <NavBar  value={ searchInputValue } setInputValue={ handleSearch } />
+      {console.log(searchInputValue)}
      <Switch>
-        <Route exact path="/" component={Product} />
+        <Route exact path="/" render={ () => ( <Product searchValue={searchInputValue}/>)  } />
         <Route path="/details" component={Details} />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />
