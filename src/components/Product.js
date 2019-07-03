@@ -6,21 +6,33 @@ import tshirtObject from '../t-shirts-data'
 
 function Product( props ) {
 
-    const [ value ] = useState( tshirtObject );
+    const [ value, setValue ] = useState( tshirtObject );
     const [ filteredValue, setFilteredValue ] = useState(value.children);
+    let tempProductsArray = value;
 
      useEffect( () => {
-      
-        setFilteredValue( value.children.filter( item => { return item.title.toLowerCase().indexOf( props.searchValue ) !== -1 } ) )
-     }, [ props.searchValue, value ] )
+        
+        //setFilteredValue( tempProductsArray.children.filter( item => { return item.title.toLowerCase().indexOf( props.searchValue ) !== -1 } ) )
+     }, [ props.searchValue ] );
 
-     function handleCartClick ( name ) {
-         let tempProductsArray = value.children;
-         const index = tempProductsArray.indexOf( value.children.find( item => {
-             item.name === name
+     useEffect( () => {
+         setFilteredValue( value.children )
+     }, [ value ] )
+
+     function handleAddToCart ( name ) {
+        console.log(tempProductsArray);
+         
+         const index = tempProductsArray.children.indexOf( value.children.find( item => {
+             return item.name === name
          } ) );
-         const product = tempProductsArray[ index ];
-         product.isInCart = 
+         console.log(index);
+         tempProductsArray.children[ index ].isInCart = true;
+         console.log(tempProductsArray.children[ index ].isInCart);
+        
+         setValue(  tempProductsArray  );
+        // setFilteredValue( tempProductsArray.children )
+            
+         console.log( filteredValue[ index ].isInCart );
      }
 
     return (
@@ -46,9 +58,12 @@ function Product( props ) {
                             }>
                                 <img className="image" key={image.name} src={image.path} alt='T-shirt'/>
                             </Link>
+                            {console.log(image.isInCart)}
                         </div> 
+                        
+                        
                          {(image.isInCart) ? <span className="cart-button inCartLabel" >In cart</span> :
-                          <span className="cart-button" onClick={ handleCartClick }> <i className="fas align-items-center fa-cart-arrow-down fa-2x" /></span>}
+                          <span className="cart-button" onClick={ () => { handleAddToCart( image.name ) } }> <i className="fas align-items-center fa-cart-arrow-down fa-2x" /></span>}
                         
                         <div className="card-footer d-flex justify-content-between" >
                             <p className="titleLabel" > { image.title } </p>
