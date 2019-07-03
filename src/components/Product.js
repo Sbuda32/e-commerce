@@ -1,19 +1,23 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import styled from 'styled-components'
 import tshirtObject from '../t-shirts-data'
+import useForceUpdate from 'use-force-update'
 
 function Product( props ) {
 
     const [ value, setValue ] = useState( tshirtObject );
     const [ filteredValue, setFilteredValue ] = useState(value.children);
+    const [ cart, setCart ] = useState([])
+
     let tempProductsArray = value;
+
+    const forceUpdate = useForceUpdate();
 
      useEffect( () => {
         
-        //setFilteredValue( tempProductsArray.children.filter( item => { return item.title.toLowerCase().indexOf( props.searchValue ) !== -1 } ) )
-     }, [ props.searchValue ] );
+        setFilteredValue( tempProductsArray.children.filter( item => { return item.title.toLowerCase().indexOf( props.searchValue ) !== -1 } ) )
+     }, [ props.searchValue, tempProductsArray.children ] );
 
      useEffect( () => {
          setFilteredValue( value.children )
@@ -28,16 +32,20 @@ function Product( props ) {
          console.log(index);
          tempProductsArray.children[ index ].isInCart = true;
          console.log(tempProductsArray.children[ index ].isInCart);
-        
+         setCart([ ...cart, tempProductsArray.children[ index ]]);
          setValue(  tempProductsArray  );
-        // setFilteredValue( tempProductsArray.children )
-            
+         forceUpdate();
+         console.log( tempProductsArray );
+         
+         console.log(cart);
+         
          console.log( filteredValue[ index ].isInCart );
      }
 
     return (
         
         <ProductWrapper className="row m-5" >
+                    {console.log(cart)}
                     {console.log(filteredValue)} 
         {filteredValue.map( image => (
                       
