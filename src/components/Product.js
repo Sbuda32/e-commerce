@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 import styled from 'styled-components'
 import tshirtObject from '../t-shirts-data'
 import useForceUpdate from 'use-force-update'
+import Modal from 'react-awesome-modal'
 
 function Product( props ) {
 
     const [ value, setValue ] = useState( tshirtObject );
     const [ filteredValue, setFilteredValue ] = useState(value.children);
-    const [ cart, setCart ] = useState([])
+    const [ modalVisibility, setModalVisibility ] = useState(false);
+    const [ cart, setCart ] = useState([]);
+    let [ index, setIndex] = useState(-1)
 
     let tempProductsArray = value;
 
@@ -25,21 +28,47 @@ function Product( props ) {
 
      function handleAddToCart ( name ) {
         console.log(tempProductsArray);
+
+         if( index !== -1 ) {
+
+            setIndex(tempProductsArray.children.indexOf( value.children.find( item => {
+                return item.name === name
+            } ) ));
+            
+            console.log( tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) );
+            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart = true;
+            console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart);
+            setCart([ ...cart, tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ]]);
+         }
+
+         else {
+
+            setIndex(tempProductsArray.children.indexOf( value.children.find( item => {
+                return item.name === name
+            } ) ));
+            console.log(index);
+            
+            console.log(tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })));
+
+            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart = true;
+            console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart);
+            setCart([ ...cart, tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ]]);
+            console.log(cart);
+
+            setValue(  tempProductsArray  );
+            forceUpdate();
+            //console.log( index );
+         }
          
-         const index = tempProductsArray.children.indexOf( value.children.find( item => {
-             return item.name === name
-         } ) );
-         console.log(index);
-         tempProductsArray.children[ index ].isInCart = true;
-         console.log(tempProductsArray.children[ index ].isInCart);
-         setCart([ ...cart, tempProductsArray.children[ index ]]);
-         setValue(  tempProductsArray  );
-         forceUpdate();
-         console.log( tempProductsArray );
-         
-         console.log(cart);
-         
-         console.log( filteredValue[ index ].isInCart );
+        // console.log( filteredValue[ index ].isInCart );
+     }
+
+     function handleModalOpen () {
+         setModalVisibility( true );
+     }
+
+     function handleCloseModal () {
+         setModalVisibility( false );
      }
 
     return (
@@ -71,15 +100,32 @@ function Product( props ) {
                         
                         
                          {(image.isInCart) ? <span className="cart-button inCartLabel" >In cart</span> :
-                          <span className="cart-button" onClick={ () => { handleAddToCart( image.name ) } }> <i className="fas align-items-center fa-cart-arrow-down fa-2x" /></span>}
-                        
+                          <span className="cart-button" onClick={ () => { handleAddToCart( image.name ); handleModalOpen(); } }> <i className="fas align-items-center fa-cart-arrow-down fa-2x" /></span>}
+
                         <div className="card-footer d-flex justify-content-between" >
                             <p className="titleLabel" > { image.title } </p>
                             <p className="priceLabel"> { image.price } </p>
                         </div>
                     </div>               
                 ) )  }  
+
+                <Modal visible={modalVisibility} width="400" height="600" effect="fadeInRight" >
+                    <ModalWrapper>
+                    <h2 className="p-3 mx-auto">Item Added to Cart</h2>
+                    {console.log(index)}
+                    { (index === -1) ? <img className="img-fluid pl-5" alt='added product' /> :
+                        <img className="img-fluid pl-5" src={ value.children[ index ].path } alt='added product' />
+                    } 
+                    <Link to="/">
+                        <button onClick={ () => { handleCloseModal() } }> Continue Shopping  </button>
+                    </Link>
+                    <Link to="/cart">
+                        <button > Go to Cart  </button>
+                    </Link>
+                    </ModalWrapper>
+                </Modal>
         </ProductWrapper>
+        
     )
 }
 // #e86830 - orange
@@ -109,5 +155,13 @@ const ProductWrapper = styled.div`
         color: #e86830;
     }
 `;
+
+const ModalWrapper = styled.div `
+    img{
+
+        position: relative;
+        width: 90%;
+    }
+`
 
 export default Product;

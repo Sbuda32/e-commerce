@@ -6,7 +6,7 @@ const tshirtObject =
   children:
     [{
       path: 'Images/Images/product_images/T-shirts/a-partridge-in-a-pear-tree.gif',
-      isInCart: true,
+      isInCart: false,
       name: 'a-partridge-in-a-pear-tree.gif',
       title: 'Partridge in a Pear Tree',
       size: 7316,
@@ -32,7 +32,7 @@ const tshirtObject =
     },
     {
       path: 'Images/Images/product_images/T-shirts/afghan-flower.gif',
-      isInCart: true,
+      isInCart: false,
       name: 'afghan-flower.gif',
       title: 'Afghan Flower',
       size: 7827,
