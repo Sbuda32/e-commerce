@@ -7,6 +7,14 @@ const Detials = (props) => {
   
   console.log(props.location.state);
 
+  console.log( props.cart );
+
+  function handleAddToCart ( value ) {
+
+    props.handleAddtoCartArray( value );
+    props.location.state.isInCart = true;
+  }
+
   return (
     <ContainerTag className="container mt-5">
       <p className="h1 title text-center m-5 mt-8"> {props.location.state.title} </p>
@@ -21,7 +29,9 @@ const Detials = (props) => {
             Detials
           </span>
           <p className="detailText" > {props.location.state.details} </p>
-          <ButtonTag cartButton> { props.location.state.isInCart ? "In Cart" : "Add to Cart"} </ButtonTag>
+          { ( props.location.state.isInCart ) ? <ButtonTag cartButton> In Cart </ButtonTag> :
+              <ButtonTag cartButton onClick={ () => { handleAddToCart( props.location.state.productObject ); } } > Add to Cart </ButtonTag>
+          }
           <Link to="/" >
             <ButtonTag> Back to Products </ButtonTag>
           </Link>
@@ -73,7 +83,7 @@ const ContainerTag = styled.div`
   }
 }`;
 
-const ButtonTag = styled.button`
+export const ButtonTag = styled.button`
   border: none;
   font-family: Baloo;
   margin: 10px;

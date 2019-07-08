@@ -4,13 +4,13 @@ import styled from 'styled-components'
 import tshirtObject from '../t-shirts-data'
 import useForceUpdate from 'use-force-update'
 import Modal from 'react-awesome-modal'
+import { ButtonTag } from './Details'
 
 function Product( props ) {
 
     const [ value, setValue ] = useState( tshirtObject );
     const [ filteredValue, setFilteredValue ] = useState(value.children);
     const [ modalVisibility, setModalVisibility ] = useState(false);
-    const [ cart, setCart ] = useState([]);
     let [ index, setIndex] = useState(-1)
 
     let tempProductsArray = value;
@@ -38,7 +38,7 @@ function Product( props ) {
             console.log( tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) );
             tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart = true;
             console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart);
-            setCart([ ...cart, tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ]]);
+            props.handleAddtoCartArray( tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ]);
          }
 
          else {
@@ -52,8 +52,8 @@ function Product( props ) {
 
             tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart = true;
             console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart);
-            setCart([ ...cart, tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ]]);
-            console.log(cart);
+            props.handleAddtoCartArray(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name }))]);
+            console.log(props.cart);
 
             setValue(  tempProductsArray  );
             forceUpdate();
@@ -74,7 +74,7 @@ function Product( props ) {
     return (
         
         <ProductWrapper className="row m-5" >
-                    {console.log(cart)}
+                    {console.log(props.cart)}
                     {console.log(filteredValue)} 
         {filteredValue.map( image => (
                       
@@ -84,11 +84,14 @@ function Product( props ) {
                                 {
                                     pathname: "/Details",
                                     state: {
+
                                         title: image.title,
                                         path: image.path,
                                         details: image.details,
                                         price: image.price,
-                                        isInCart: image.isInCart
+                                        isInCart: image.isInCart,
+                                        name: image.name,
+                                        productObject: image
                                     }
                                 }
 
@@ -104,24 +107,36 @@ function Product( props ) {
 
                         <div className="card-footer d-flex justify-content-between" >
                             <p className="titleLabel" > { image.title } </p>
-                            <p className="priceLabel"> { image.price } </p>
+                            <p className="priceLabel"> $ { image.price }.00 </p>
                         </div>
                     </div>               
                 ) )  }  
 
                 <Modal visible={modalVisibility} width="400" height="600" effect="fadeInRight" >
                     <ModalWrapper>
-                    <h2 className="p-3 mx-auto">Item Added to Cart</h2>
-                    {console.log(index)}
-                    { (index === -1) ? <img className="img-fluid pl-5" alt='added product' /> :
-                        <img className="img-fluid pl-5" src={ value.children[ index ].path } alt='added product' />
-                    } 
-                    <Link to="/">
-                        <button onClick={ () => { handleCloseModal() } }> Continue Shopping  </button>
-                    </Link>
-                    <Link to="/cart">
-                        <button > Go to Cart  </button>
-                    </Link>
+                        <h2 className="p-3 mx-auto">Item Added to Cart</h2>
+                        {console.log(index)}
+                        { (index === -1) ? <img className="img-fluid pl-5" alt='added product' /> :
+                            <div>
+                                <img className="img-fluid pl-5" src={ value.children[ index ].path } alt='added product' /> 
+                                <h2 className="addedItemTitle text-center pt-1" > { value.children[ index ].title } </h2>
+                                <p className="addedItemPrice text-center" > $ { value.children[ index ].price }.00 </p>
+                            </div>
+                        } 
+                        
+                        <Link to="/">
+                            <ButtonTag className="col-9 p-1 ml-5" onClick={ () => { handleCloseModal() } }> Continue Shopping  </ButtonTag>
+                        </Link>
+                        <Link to={
+                            {
+                                pathname: "/cart",
+                                state: {
+                                    cartList: props.cart
+                                }
+                            }
+                        }>
+                            <ButtonTag cartButton className="col-9 p-1 ml-5"  > Go to Cart  </ButtonTag>
+                        </Link>
                     </ModalWrapper>
                 </Modal>
         </ProductWrapper>
@@ -161,6 +176,18 @@ const ModalWrapper = styled.div `
 
         position: relative;
         width: 90%;
+    }
+
+    .addedItemTitle {
+
+        font-family: Baloo;
+    }
+
+    .addedItemPrice {
+
+        font-family: 'Chakra Petch';
+        font-size: 110%;
+        font-weight: 800;
     }
 `
 

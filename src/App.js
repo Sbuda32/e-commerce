@@ -13,10 +13,17 @@ import Default from './components/Default';
 function App() {
 
   const [searchInputValue, setSearchInputValue] = useState("");
+  const [ cart, setCart] = useState([]);
+
 
   function handleSearch ( value ) {
     setSearchInputValue( value );
     
+  }
+
+  function handleAddtoCartArray ( value ) {
+
+    setCart( [ ...cart, value ] );
   }
 
   return (
@@ -24,8 +31,8 @@ function App() {
       <NavBar  value={ searchInputValue } setInputValue={ handleSearch } />
       {console.log(searchInputValue)}
      <Switch>
-        <Route exact path="/" render={ () => ( <Product searchValue={searchInputValue}/>)  } />
-        <Route path="/details" component={Details} />
+        <Route exact path="/" render={ (props) => ( <Product { ...props } cart={cart} searchValue={searchInputValue} handleAddtoCartArray={ handleAddtoCartArray } />)  } />
+        <Route path="/details" render={ (props) => ( <Details { ...props } cart={cart} handleAddtoCartArray={ handleAddtoCartArray } /> ) } />
         <Route path="/cart" component={Cart} />
         <Route component={Default} />
      </Switch>

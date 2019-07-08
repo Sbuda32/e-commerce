@@ -8,7 +8,7 @@ function NavBar( props ) {
   return (
     <nav className="navbar navbar-dark navBackground title" >
         <Link to="/"> <img className="companyLogo" src="Images/Images/images/tshirtshop.png" alt="T-shirt shop logo"/> </Link>
-        <a href="../" className="navbar-brand" > Products </a>
+        <Link to="/" className="navbar-brand" > Products </Link>
         <form className="form-inline" >
           {/* {console.log(props.value)} */}
           <input type="search" placeholder="Search" className="form-control mr-sm-2" value={value} onChange={ (e) => {
