@@ -9,8 +9,8 @@ function Cart( props ) {
     <React.Fragment>
       <CartColumn />
         {console.log( props.location.state )}
-      <CartList cartList={ props.location.state.cartList } />
-
+      <CartList cartList={ props.location.state.cartList } removeItem={ props.removeItem } />
+ 
       <Link to="/">
         <span className=" m-3" > <i className="far fa-hand-point-left fa-3x"></i> </span>
       </Link>

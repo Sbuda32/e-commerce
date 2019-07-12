@@ -9,9 +9,9 @@ import { ButtonTag } from './Details'
 function Product( props ) {
 
     const [ value, setValue ] = useState( tshirtObject );
-    const [ filteredValue, setFilteredValue ] = useState(value.children);
-    const [ modalVisibility, setModalVisibility ] = useState(false);
-    let [ index, setIndex] = useState(-1)
+    const [ filteredValue, setFilteredValue ] = useState( value.children );
+    const [ modalVisibility, setModalVisibility ] = useState( false );
+    let [ index, setIndex] = useState(-1);
 
     let tempProductsArray = value;
 
@@ -37,6 +37,8 @@ function Product( props ) {
             
             console.log( tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) );
             tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart = true;
+            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].count += 1;
+            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].total += tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].price;
             console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart);
             props.handleAddtoCartArray( tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ]);
          }
@@ -51,6 +53,8 @@ function Product( props ) {
             console.log(tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })));
 
             tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart = true;
+            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].count += 1;
+            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].total += tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].price;
             console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart);
             props.handleAddtoCartArray(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name }))]);
             console.log(props.cart);
@@ -91,7 +95,8 @@ function Product( props ) {
                                         price: image.price,
                                         isInCart: image.isInCart,
                                         name: image.name,
-                                        productObject: image
+                                        productObject: image,
+                                        temp: tempProductsArray
                                     }
                                 }
 

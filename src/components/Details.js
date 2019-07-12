@@ -9,9 +9,18 @@ const Detials = (props) => {
 
   console.log( props.cart );
 
-  function handleAddToCart ( value ) {
+  function handleAddToCart ( productObject, productTitle ) {
 
-    props.handleAddtoCartArray( value );
+    const index = props.location.state.temp.children.findIndex( item => { return item.title === productTitle })
+
+    props.handleAddtoCartArray( productObject );
+
+    console.log( "Title: " + productTitle);
+    console.log( index );
+    props.location.state.temp.children[ index ].isInCart = true;
+    props.location.state.temp.children[ index ].count += 1;
+    props.location.state.temp.children[ index ].total += props.location.state.temp.children[ index ].price;
+    
     props.location.state.isInCart = true;
   }
 
@@ -30,7 +39,7 @@ const Detials = (props) => {
           </span>
           <p className="detailText" > {props.location.state.details} </p>
           { ( props.location.state.isInCart ) ? <ButtonTag cartButton> In Cart </ButtonTag> :
-              <ButtonTag cartButton onClick={ () => { handleAddToCart( props.location.state.productObject ); } } > Add to Cart </ButtonTag>
+              <ButtonTag cartButton onClick={ () => { handleAddToCart( props.location.state.productObject, props.location.state.title ); } } > Add to Cart </ButtonTag>
           }
           <Link to="/" >
             <ButtonTag> Back to Products </ButtonTag>

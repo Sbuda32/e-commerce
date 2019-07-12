@@ -146,6 +146,17 @@
     margin-bottom: -50px;
 }
 
+.fa-trash-alt {
+
+    color: #9cf4a7;
+    cursor: pointer;
+}
+
+.fa-trash-alt:hover {
+
+    color: #e86830;
+}
+
 @media (min-width: 992px) {
 
     .col-lg-3 {
