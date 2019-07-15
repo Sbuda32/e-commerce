@@ -10,11 +10,13 @@ import Details from './components/Details';
 import Cart from './components/Cart';
 import Default from './components/Default';
 import useForceUpdate from 'use-force-update'
+import { connect } from 'react-redux'
+import { addItemToCart, removeItemInCart } from './actions/CRUDActions';
 
-function App() {
+function App( props ) {
 
   const [searchInputValue, setSearchInputValue] = useState("");
-  const [ cart, setCart] = useState([]);
+  const [ cart, setCart] = useState(props);
 
   const forceUpdate = useForceUpdate();
 
@@ -23,17 +25,14 @@ function App() {
     
   }
 
-  function handleAddtoCartArray ( value ) {
-
-    setCart( [ ...cart, value ] );
-  }
-
   function removeItem( title ) {
 
-    console.log(title, cart.filter( item => item.title !== title ) );
+    console.log(title, props);
     
-    setCart(cart.filter( item => item.title !== title ) );
-    console.log( "After remove: " + cart.filter( item => item.title === title ) );
+    props.deleteItemInCart( title );
+
+    setCart(cart );
+    console.log( "After remove: " + cart );
     forceUpdate();
     
     //props.cartList.slice( index , 1) ;
@@ -45,13 +44,29 @@ function App() {
       <NavBar  value={ searchInputValue } setInputValue={ handleSearch } />
       {console.log(searchInputValue)}
      <Switch>
-        <Route exact path="/" render={ (props) => ( <Product { ...props } cart={cart} searchValue={searchInputValue} handleAddtoCartArray={ handleAddtoCartArray } />)  } />
-        <Route path="/details" render={ (props) => ( <Details { ...props } cart={cart} handleAddtoCartArray={ handleAddtoCartArray } /> ) } />
-        <Route path="/cart" render={ (props) => ( <Cart { ...props } cart={cart} handleAddtoCartArray={ handleAddtoCartArray } removeItem={ removeItem } /> ) } />
+        <Route exact path="/" render={ (props) => ( <Product { ...props } cart={cart} searchValue={searchInputValue} />)  } />
+        <Route path="/details" render={ (props) => ( <Details { ...props } cart={cart} /> ) } />
+        <Route path="/cart" render={ (props) => ( <Cart { ...props } cart={cart} removeItem={ removeItem } /> ) } />
         <Route component={Default} />
      </Switch>
     </React.Fragment>
   );
 }
 
-export default App;
+const mapStateToProps = ( state ) => {
+
+    return {
+      cartList: state.cartList
+    }
+}
+
+const mapDispatchToProps = ( dispatch ) => {
+
+  return {
+
+    addToCart: ( item ) => { dispatch( addItemToCart( item )) },
+    deleteItemInCart: ( item ) => { dispatch( removeItemInCart( item ) ) }
+  }
+}
+
+export default connect( mapStateToProps, mapDispatchToProps ) ( App );

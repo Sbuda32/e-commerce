@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 import '../../App.css';
 import CartColumn from './CartColumn';
 import CartList from './CartList';
+import { connect } from 'react-redux';
 
 function Cart( props ) {
   return (
     <React.Fragment>
       <CartColumn />
-        {console.log( props.location.state )}
-      <CartList cartList={ props.location.state.cartList } removeItem={ props.removeItem } />
+        {console.log( props.cartList )}
+      <CartList cartList={ props.cartList } removeItem={ props.removeItem } />
  
       <Link to="/">
         <span className=" m-3" > <i className="far fa-hand-point-left fa-3x"></i> </span>
@@ -18,4 +19,12 @@ function Cart( props ) {
   );
 }
 
-export default Cart;
+const mapStateToProps = ( state ) => {
+
+  return {
+
+    cartList: state.cartList
+  }
+}
+
+export default connect ( mapStateToProps) ( Cart );

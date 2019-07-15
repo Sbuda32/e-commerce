@@ -6,12 +6,19 @@ import { BrowserRouter as Router }  from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import { ProductProvider } from './context'
 import tshirtObject from './t-shirts-data'
+import { createStore } from 'redux';
+import { Provider } from 'react-redux'
+import mainReducer from './reducers/mainReducer';
+
+const store = createStore( mainReducer );
 
 ReactDOM.render(
     
     <ProductProvider value={tshirtObject} >
         <Router>
-            <App />
+            <Provider store={ store } >
+                <App />
+            </Provider>
         </Router>
     </ProductProvider>,
         document.getElementById('root'));

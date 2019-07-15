@@ -39,6 +39,7 @@ export default function CartItem( props ) {
     return (
         <div className="row text-center" >
             <img className="col-lg-2 p-3" src={props.cartItem.path} alt="Product" style={  {width: "120px", height: "30%"} } />
+            {console.log(props)}
             <p className="col-lg-2 d-flex align-items-center justify-content-center" > { props.cartItem.title } </p>
             <p className="col-lg-2 d-flex justify-content-start align-items-center" > $  { props.cartItem.price }.00 </p>
             <QuantityWrapper className="d-flex justify-content-between align-items-center col-lg-2" >
@@ -47,7 +48,7 @@ export default function CartItem( props ) {
                 <button className="box-button" onClick={ () => { incrementQuantity( props.cartItem.price ); } } > + </button>
             </QuantityWrapper>
             <div className="col-lg-2 d-flex align-items-center justify-content-center">
-                <i className="fas fa-trash-alt fa-2x" onClick={ () => { props.cart.removeItem( props.cartItem.title ) } } />
+                <i className="fas fa-trash-alt fa-2x" onClick={ () => { props.cart.removeItem( props.cartItem ) } } />
             </div>
             <p className="col-lg-2 d-flex justify-content-start align-items-center" > $  { total }.00 </p>
         </div>

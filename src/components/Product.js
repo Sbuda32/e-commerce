@@ -5,7 +5,9 @@ import tshirtObject from '../t-shirts-data'
 import useForceUpdate from 'use-force-update'
 import Modal from 'react-awesome-modal'
 import { ButtonTag } from './Details'
-
+import { connect } from 'react-redux'
+import { addItemToCart } from '../actions/CRUDActions';
+ 
 function Product( props ) {
 
     const [ value, setValue ] = useState( tshirtObject );
@@ -26,41 +28,42 @@ function Product( props ) {
          setFilteredValue( value.children )
      }, [ value ] )
 
-     function handleAddToCart ( name ) {
-        console.log(tempProductsArray);
+     function handleAddToCart ( itemObject ) {
+
+        let currentIndex = tempProductsArray.children.indexOf( value.children.find( item => { return item.title === itemObject.title } ) );
+        props.addToCart( itemObject );
+        console.log( itemObject );
+        
+        console.log(tempProductsArray, currentIndex);
 
          if( index !== -1 ) {
 
-            setIndex(tempProductsArray.children.indexOf( value.children.find( item => {
-                return item.name === name
-            } ) ));
+            setIndex( currentIndex );
             
-            console.log( tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) );
-            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart = true;
-            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].count += 1;
-            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].total += tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].price;
-            console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].isInCart);
-            props.handleAddtoCartArray( tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ]);
+            console.log( tempProductsArray.children.indexOf( value.children.find( item => { return item.title === itemObject.title } ) ) );
+            tempProductsArray.children[ currentIndex ].isInCart = true;
+            tempProductsArray.children[ currentIndex ].count += 1;
+            tempProductsArray.children[ currentIndex ].total += tempProductsArray.children[ currentIndex ].price;
+            console.log(tempProductsArray.children[ currentIndex ].isInCart);
+            //props.handleAddtoCartArray( tempProductsArray.children[ currentIndex]);
          }
 
          else {
 
-            setIndex(tempProductsArray.children.indexOf( value.children.find( item => {
-                return item.name === name
-            } ) ));
+            setIndex( currentIndex );
             console.log(index);
             
-            console.log(tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })));
+            console.log( currentIndex );
 
-            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart = true;
-            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].count += 1;
-            tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].total += tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name } ) ) ].price;
-            console.log(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name })) ].isInCart);
-            props.handleAddtoCartArray(tempProductsArray.children[ tempProductsArray.children.indexOf( value.children.find( item => { return item.name === name }))]);
-            console.log(props.cart);
+             tempProductsArray.children[ currentIndex ].isInCart = true;
+             tempProductsArray.children[ currentIndex ].count += 1;
+             tempProductsArray.children[ currentIndex ].total += tempProductsArray.children[ currentIndex ].price;
+             console.log(tempProductsArray.children[ currentIndex ].isInCart);
+            // props.handleAddtoCartArray(tempProductsArray.children[ currentIndex ]);
+             console.log(props.cartList);
 
-            setValue(  tempProductsArray  );
-            forceUpdate();
+             setValue(  tempProductsArray  );
+             forceUpdate();
             //console.log( index );
          }
          
@@ -78,7 +81,7 @@ function Product( props ) {
     return (
         
         <ProductWrapper className="row m-5" >
-                    {console.log(props.cart)}
+                    {console.log(props.cartList)}
                     {console.log(filteredValue)} 
         {filteredValue.map( image => (
                       
@@ -108,7 +111,7 @@ function Product( props ) {
                         
                         
                          {(image.isInCart) ? <span className="cart-button inCartLabel" >In cart</span> :
-                          <span className="cart-button" onClick={ () => { handleAddToCart( image.name ); handleModalOpen(); } }> <i className="fas align-items-center fa-cart-arrow-down fa-2x" /></span>}
+                          <span className="cart-button" onClick={ () => { handleAddToCart( image ); handleModalOpen(); } }> <i className="fas align-items-center fa-cart-arrow-down fa-2x" /></span>}
 
                         <div className="card-footer d-flex justify-content-between" >
                             <p className="titleLabel" > { image.title } </p>
@@ -136,7 +139,7 @@ function Product( props ) {
                             {
                                 pathname: "/cart",
                                 state: {
-                                    cartList: props.cart
+                                    cartList: props.cartList
                                 }
                             }
                         }>
@@ -196,4 +199,21 @@ const ModalWrapper = styled.div `
     }
 `
 
-export default Product;
+const mapStateToProps = ( state ) => {
+
+    return {
+
+        cartList: state.cartList
+    }
+}
+
+const mapDispatchToProp = ( dispatch ) => {
+
+    return {
+
+        addToCart: ( item ) => { dispatch( addItemToCart( item ) ) },
+        
+    }
+}
+
+export default connect ( mapStateToProps, mapDispatchToProp ) ( Product );
