@@ -1,6 +1,9 @@
+import tshirtObject from '../t-shirts-data';
+
 const initState = {
 
-    cartList: []
+    cartList: [],
+    tshirtObject
 }
 
 const mainReducer = ( state = initState, action ) => {
@@ -18,10 +21,13 @@ const mainReducer = ( state = initState, action ) => {
         
         case "REMOVE_ITEM":
             console.log(action);
+            console.log(state.cartList.filter( item => { return item !== action.itemObject } ));
+            
+            action.itemObject.isInCart = false;
             
             return {
                 ...state,
-                cartList: state.cartList.filter( item => { return item === action.itemObject } )
+                cartList: state.cartList.filter( item => { return item !== action.itemObject } )
             };
 
         default:

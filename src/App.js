@@ -25,11 +25,14 @@ function App( props ) {
     
   }
 
-  function removeItem( title ) {
+  function removeItem( itemObject ) {
 
-    console.log(title, props);
+    console.log(itemObject, props);
     
-    props.deleteItemInCart( title );
+    props.deleteItemInCart( itemObject );
+
+    //props.isInCart = false;
+    //props.count = 0;
 
     setCart(cart );
     console.log( "After remove: " + cart );
@@ -56,7 +59,8 @@ function App( props ) {
 const mapStateToProps = ( state ) => {
 
     return {
-      cartList: state.cartList
+      cartList: state.cartList,
+      productList: state.productList
     }
 }
 

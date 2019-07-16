@@ -15,7 +15,7 @@ function Product( props ) {
     const [ modalVisibility, setModalVisibility ] = useState( false );
     let [ index, setIndex] = useState(-1);
 
-    let tempProductsArray = value;
+    let tempProductsArray = props.productList;
 
     const forceUpdate = useForceUpdate();
 
@@ -28,6 +28,8 @@ function Product( props ) {
          setFilteredValue( value.children )
      }, [ value ] )
 
+
+     //Function to handle add to cart
      function handleAddToCart ( itemObject ) {
 
         let currentIndex = tempProductsArray.children.indexOf( value.children.find( item => { return item.title === itemObject.title } ) );
@@ -46,6 +48,7 @@ function Product( props ) {
             tempProductsArray.children[ currentIndex ].total += tempProductsArray.children[ currentIndex ].price;
             console.log(tempProductsArray.children[ currentIndex ].isInCart);
             //props.handleAddtoCartArray( tempProductsArray.children[ currentIndex]);
+            console.log(props);
          }
 
          else {
@@ -60,7 +63,7 @@ function Product( props ) {
              tempProductsArray.children[ currentIndex ].total += tempProductsArray.children[ currentIndex ].price;
              console.log(tempProductsArray.children[ currentIndex ].isInCart);
             // props.handleAddtoCartArray(tempProductsArray.children[ currentIndex ]);
-             console.log(props.cartList);
+             console.log(props.productList.children);
 
              setValue(  tempProductsArray  );
              forceUpdate();
@@ -203,7 +206,8 @@ const mapStateToProps = ( state ) => {
 
     return {
 
-        cartList: state.cartList
+        cartList: state.cartList,
+        productList: state.tshirtObject
     }
 }
 

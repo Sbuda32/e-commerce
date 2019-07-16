@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
+import { connect } from 'react-redux';
 
-export default function CartItem( props ) {
+function CartItem( props ) {
 
     const [ count, setCount] = useState( props.cartItem.count );
     const [ total, setTotal] = useState( props.cartItem.total )
@@ -80,3 +81,13 @@ const QuantityWrapper = styled.div `
         color: #9cf4a7
     }
 `;
+
+const mapStateToProps = ( state ) => {
+
+    return {
+
+        cartList: state.cartList
+    }
+}
+
+export default connect ( mapStateToProps )( CartItem )

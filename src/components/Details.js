@@ -2,21 +2,23 @@ import React from 'react';
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
 import '../App.css';
+import { addItemToCart } from '../actions/CRUDActions';
+import { connect } from 'react-redux';
 
 const Detials = (props) => {
   
   console.log(props.location.state);
 
-  console.log( props.cart );
+  console.log( props.cartList );
 
   function handleAddToCart ( productObject, productTitle ) {
 
     const index = props.location.state.temp.children.findIndex( item => { return item.title === productTitle })
 
-    props.handleAddtoCartArray( productObject );
-
-    console.log( "Title: " + productTitle);
-    console.log( index );
+   // props.handleAddtoCartArray( productObject );
+    console.log(props, productObject);
+    
+    props.addToCart( productObject )
     props.location.state.temp.children[ index ].isInCart = true;
     props.location.state.temp.children[ index ].count += 1;
     props.location.state.temp.children[ index ].total += props.location.state.temp.children[ index ].price;
@@ -112,4 +114,20 @@ export const ButtonTag = styled.button`
   }
 `;
 
-export default Detials;
+const mapStateToProps = ( state ) => {
+
+  return {
+
+    cartList: state.cartList
+  }
+}
+
+const mapDispatchToProps = ( dispatch ) => {
+
+  return {
+    
+    addToCart: ( item ) => { dispatch( addItemToCart( item ) ) }
+  }
+}
+
+export default connect ( mapStateToProps, mapDispatchToProps ) ( Detials );
