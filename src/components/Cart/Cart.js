@@ -15,6 +15,7 @@ function Cart( props ) {
       <Link to="/">
         <span className=" m-3" > <i className="far fa-hand-point-left fa-3x"></i> </span>
       </Link>
+      <button className="simpleCart_checkout" > Checkout </button>
     </React.Fragment>
   );
 }

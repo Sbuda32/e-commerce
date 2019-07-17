@@ -41,7 +41,7 @@ const Detials = (props) => {
           </span>
           <p className="detailText" > {props.location.state.details} </p>
           { ( props.location.state.isInCart ) ? <ButtonTag cartButton> In Cart </ButtonTag> :
-              <ButtonTag cartButton onClick={ () => { handleAddToCart( props.location.state.productObject, props.location.state.title ); } } > Add to Cart </ButtonTag>
+              <ButtonTag className="item_add" cartButton onClick={ () => { handleAddToCart( props.location.state.productObject, props.location.state.title ); } } > Add to Cart </ButtonTag>
           }
           <Link to="/" >
             <ButtonTag> Back to Products </ButtonTag>
